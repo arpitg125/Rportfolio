@@ -4,8 +4,7 @@
       "organisation": "IIT Madras",
       "startDate": "2021",
       "endDate": "Present",
-      "experiences": ["Performed DEA on network traffic data and preparation for model interpertation", "Implemented the K-NN algorithm to find the K most similar high-resolution images in the dataset for each low-resolution image","Conducted data analysis on schools, including calculating z-scores and visualizing them on a graph .",
-    "Performed exploratory data analysis and built survival prediction models on the Titanic dataset."
+      "experiences": ["Titanic Survival Prediction: Developed machine learning models to predict passenger survival based on features such as age, gender, and class.", "Maze Solver: Designed and implemented algorithms to solve mazes using techniques such as BFS and DFS, enhancing my problem-solving and algorithmic thinking skills.","EDA: Conducted EDA on various datasets,extracting meaningful insights and identifying patterns to guide further analysis or decision-making."
     
     ],
       "imageSrc": "history/google.png"
