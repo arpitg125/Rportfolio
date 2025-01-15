@@ -1,0 +1,14 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(120deg, #2980b9, #2c3e50);
+  background-size: 200% 200%;
+  animation: water 5s ease infinite;
+  color: #f5f5f5;
+}
+a{
+  display: inline-flex;
+  padding: 10px;
+  justify-content: space-around;
+}

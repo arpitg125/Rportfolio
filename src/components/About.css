@@ -1,0 +1,117 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .aboutColumn {
+    width: 48%; /* Make both columns take 48% of the container */
+  }
+  
+  .aboutLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .aboutRight {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutTitle {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+  }
+  
+  .aboutImage {
+    width: 80%;
+    margin-top: 30px;
+    animation: float 3s ease-in-out infinite; /* Floating animation */
+  }
+  
+  /* Keyframes for the floating effect */
+  @keyframes float {
+    0% {
+      transform: translateY(0); /* Starting position */
+    }
+    50% {
+      transform: translateY(-10px); /* Moves 10px up */
+    }
+    100% {
+      transform: translateY(0); /* Back to original position */
+    }
+  }
+  .aboutItems {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .aboutItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(165, 215, 232, 0.42) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+  }
+  
+  .aboutItem:hover {
+    background-size: 100% 100%;
+  }
+  
+  .aboutItem h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .aboutItem p {
+    font-size: 25px;
+  }
+  
+  @media screen and (max-width: 830px) {
+    .aboutContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .aboutColumn {
+      width: 100%;
+    }
+  
+    .aboutImage {
+      width: 50%;
+    }
+  
+    .aboutItems {
+      margin-top: 29px;
+    }
+  
+    .aboutItem {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  

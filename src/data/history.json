@@ -1,0 +1,47 @@
+[
+    {
+      "role": "CourseWork",
+      "organisation": "IIT Madras",
+      "startDate": "2021",
+      "endDate": "Present",
+      "experiences": ["Performed DEA on network traffic data and preparation for model interpertation", "Implemented the K-NN algorithm to find the K most similar high-resolution images in the dataset for each low-resolution image","Conducted data analysis on schools, including calculating z-scores and visualizing them on a graph .",
+    "Performed exploratory data analysis and built survival prediction models on the Titanic dataset."
+    
+    ],
+      "imageSrc": "history/google.png"
+    },
+    {
+      "role": "Frontend Intern",
+      "organisation": "CosGrid Networks",
+      "startDate": "Nov, 2022",
+      "endDate": "Feb, 2023",
+      "experiences": ["Proficiently developed modules using Angular and Strapi toenhance website functionality", 
+      "Actively contributed to the development of the CosGridMobile Application, leveraging the Ionic framework.",
+      "Collaborated with the team to create seamless web andmobile user experiences."
+    ],
+      "imageSrc": "history/microsoft.png"
+    },
+    {
+      "role": "Frontend Intern",
+      "organisation": "SRV Media",
+      "startDate": "Apr, 2022",
+      "endDate": "Jun, 2022",
+      "experiences": [
+        "Created a dynamic form builder with drag and-drop functionality using the Angular framework.",
+        "Developed a module for re-rendering form data from JSON files to a form",
+        "Designed the user interface for a chatbot and implemented image rendering."
+      ],
+      "imageSrc": "history/netflix.png"
+    },
+    {
+      "role": "Intern",
+      "organisation": "Vectorised AI Labs ",
+      "startDate": "Sep, 2021",
+      "endDate": "Dec, 2021",
+     "experiences": [
+        "Owned front-end Developer for the Vectorised AI Labs Website utilised Reactjs",
+        "Worked on React app development, including API integration, GraphQL client implementation for querying and mutation, and developed chart modules using Chart.js for displaying line charts"
+      ],
+      "imageSrc": "history/netflix.png"
+    }
+  ]

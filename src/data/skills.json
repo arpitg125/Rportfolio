@@ -1,0 +1,48 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "files.png"
+    },
+    {
+      "title": "ReactJS",
+      "imageSrc": "react.png"
+    },
+    {
+      "title": "Angular",
+      "imageSrc": "angularjs.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "python.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "js.png"
+    },
+    {
+      "title": "Nodejs",
+      "imageSrc": "nodejs.png"
+    },
+    {
+      "title": "Ionic",
+      "imageSrc": "Ionic.png"
+    },
+    
+    {
+      "title": "ML",
+      "imageSrc": "ml.png"
+    },
+    {
+      "title": "Data-Anaylsis",
+      "imageSrc": "data-analysis.png"
+    },
+    {
+      "title": "Chess",
+      "imageSrc": "chessi.png"
+    }
+    
+  ]

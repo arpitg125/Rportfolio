@@ -1,0 +1,65 @@
+/* Hero.css */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Create two equal columns */
+  gap: 30px; /* Space between columns */
+  padding: 50px 1%; /* Adjust padding around the section */
+  align-items: center; /* Vertically center the content in the grid */
+  justify-content: space-between; /* Add spacing between content and image */
+  height: auto;
+}
+
+.content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+}
+
+.title {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.imageWrapper{    margin-left: 227px;
+}
+.contactBtn {
+  text-decoration: none;
+  background-color: #ff5a5f; /* Primary button color */
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-left: 209px;
+}
+
+.heroImg {
+  width: 100%; /* Make image responsive to container */
+  max-width: 400px; /* Prevent the image from being too large */
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    grid-template-columns: 1fr; /* Stack columns vertically on small screens */
+    padding: 20px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .heroImg {
+    max-width: 80%; /* Scale image down on smaller screens */
+    margin: 0 auto; /* Center the image */
+  }
+}
